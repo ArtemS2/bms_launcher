@@ -93,9 +93,9 @@ def configure(conf):
 
 	# optional
 	try:
-		conf.find_program('aapt', path_list = paths)
-	except Errors.ConfigurationError:
 		conf.find_program('aapt2', path_list = paths)
+	except Errors.ConfigurationError:
+		conf.find_program('aapt', path_list = paths)
 
 	# optional
 	# if conf.env.BUILD_TOOLS_VERSION[0] >= D8_BUILD_TOOLS_MAJOR_VER:

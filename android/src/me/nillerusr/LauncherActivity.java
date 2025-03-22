@@ -38,7 +38,7 @@ import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity
 {
-	public static String MOD_NAME = "MOD_REPLACE_ME";
+	public static String MOD_NAME = "bms";
 	public static String PKG_NAME;
 
 	static EditText cmdArgs;
